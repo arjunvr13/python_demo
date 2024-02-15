@@ -2,12 +2,6 @@
 # 	Sample List : ['abc', 'xyz', 'aba', '1']
 # 	Expected Result : 3
 list2 = ['abc', 'xyz', 'aba','1']
-# n = int(input("Enter the limit:"))
-# for i in range(0,n):
-#     string = input("Enter the string:")
-#     list2.append(string)
-# print(list2)
-
 count = 0
 for i in range(len(list2)):
     length = len(list2[i])
