@@ -20,6 +20,12 @@ class Cypher:
                 new_str += i 
         print("string after encoding:",new_str)
         return new_str
+    
+    def check_len(self):
+        if len(self.str1) == len(self.encoded):
+            print("same length")
+        else:
+            print("different length")
 
     def decoder(self):
         dec_str = ""
@@ -39,3 +45,4 @@ class Cypher:
 str1 = input("Enter the string:")
 s1 = Cypher()
 s1.decoder()
+s1.check_len()
